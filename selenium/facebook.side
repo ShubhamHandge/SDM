@@ -1,0 +1,173 @@
+{
+  "id": "0c3285f8-f20a-433f-a1d3-71a609a774b2",
+  "version": "2.0",
+  "name": "facebook",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "d07f0dc0-55ac-4998-a6bb-0dfbf0d456f9",
+    "name": "facebooklogin",
+    "commands": [{
+      "id": "5d374f3c-6827-411c-ac24-23e2ed73807c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16bafdd8-5469-474b-9336-9cf80eac4e60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "724x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0cc7aa0-612b-489b-9de0-dc9689c32cb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_Iy']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa515d4e-ae5a-4387-9af0-ea2a4ad5fd2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_Iy']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "9011490563"
+    }, {
+      "id": "1aafff23-459f-40e2-8231-14bf9a68cd4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=passContainer",
+      "targets": [
+        ["id=passContainer", "id"],
+        ["css=#passContainer", "css:finder"],
+        ["xpath=//div[@id='passContainer']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_Iy']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba3d9e6c-258d-4686-a2d8-a2e2c5a92c4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=passContainer",
+      "targets": [
+        ["id=passContainer", "id"],
+        ["css=#passContainer", "css:finder"],
+        ["xpath=//div[@id='passContainer']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_Iy']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c00ac6-87a3-43b8-8bb8-de266ec0cf4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "645150f9-8f3f-4040-b37e-1a07481bb243",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ".9011201629."
+    }, {
+      "id": "57573492-c216-4198-83de-f157b1ec288d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "94cf6756-48fa-40f2-885b-8cda9ff1a34d",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8456d2ef-8a07-4e10-adde-1d4fce0fcc82",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e744ce9b-8185-4163-a0c1-22422e446852",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c5a3252-49b7-428d-9e9b-8a46ebb0a93b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flipkart.com/", "https://www.amazon.com/", "https://www.google.com/", "https://www.facebook.com/"],
+  "plugins": []
+}

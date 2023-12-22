@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+handge shubham
+=======
+shubham handge
+i'm from nashik
+>>>>>>> master

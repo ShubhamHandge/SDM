@@ -1,0 +1,22 @@
+Installation on Windows
+Step 1 : check Java is installed 
+               Goto command prompt : type :- java -version Enter.
+	Goto Jenkins.io and download Jenkins.war file
+
+Step 2 : Download Jenkins.war file
+              Keep that Jenkins.war file in a specific folder and open cmd in that folder.(Type: java -jar Jenkins.war Enter)(by default it will take localhost : 8080)
+
+Step 3 : Goto cmd prompt and run command
+   java -jar jenkins.war --httpPort=9191
+   Copy the password.
+
+Step 4 : On browser goto http://localhost:9191 
+
+Step 5 : Provide admin password and complete the setup.
+
+Step 6 : Install suggested plugins
+
+Step 7: Create first admin user : default admin-admin
+        click on save and finish.
+
+Step 8: Click on start for using Jenkins.
