@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: ASUS
 Build-Jdk: 17.0.3
 Created-By: Maven Integration for Eclipse
 
+=======
+Manifest-Version: 1.0
+Built-By: ASUS
+Build-Jdk: 17.0.3
+Created-By: Maven Integration for Eclipse
+
+>>>>>>> 4cecd554e349f2f0152bfd79ffefdf76f291d917
