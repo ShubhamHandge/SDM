@@ -1,0 +1,31 @@
+package com.browser.test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class browserTesting {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		
+		System.setProperty("webdriver.chrome.driver", "\"F:\\SDM\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe\"");
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://www.zomato.com");
+		Thread.sleep(1000);
+		dr.findElement(By.className("sc-3o0n99-5 sc-hqFvvW hVDzw")).click();
+		
+		Thread.sleep(1000);
+		dr.findElement(By.className("sc-60vv3c-0 eOYJSt sc-fznyAO CWQMf")).sendKeys("1234567891");
+		
+
+		
+		 
+
+		 
+		
+	
+	}
+
+}

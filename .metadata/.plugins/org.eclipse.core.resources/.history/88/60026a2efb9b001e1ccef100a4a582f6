@@ -1,0 +1,27 @@
+package com.browser.test;
+
+public class browserTesting {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		
+		System.setProperty("webdriver.chrome.driver", "\"F:\\SDM\\SDMAutomationProject\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe\"");
+		WebDriver dr = new ChromeDriver();
+		dr.get("https://www.swiggy.com");
+		Thread.sleep(1000);
+		dr.findElement(By.className("x4bK8")).click();
+		
+		Thread.sleep(1000);
+		dr.findElement(By.name("mobile")).sendKeys("9011490563");
+		
+
+		
+		 
+
+		 
+		
+	
+	}
+
+}
